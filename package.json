@@ -1,0 +1,22 @@
+{
+  "name": "internship-portal",
+  "version": "1.0.0",
+  "description": "Production-ready internship portal: Express API, accessible frontend, secure application form",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test --test-reporter=spec",
+    "perf": "node scripts/perf-check.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "compression": "^1.8.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
